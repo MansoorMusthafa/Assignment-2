@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: #39aebc !important;
+}
+body{
+  height: 100vh !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-modal .modal-dialog {
+  position: fixed !important;
+  right: 0 !important;
+  top: 0 !important;
+  height: 100% !important;
+  width: 50% !important;
+  margin: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-modal .modal-content {
+  height: 100% !important;
+  border-radius: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.modal-dialog {
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  height: 100% !important;
+}
+
+.modal-content {
+  height: 100% !important;
+}
+
+.modal-header {
+  background-color: #39aebc !important;
+}
+
+.modal-title {
+  color: white !important;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-close {
+  color: white !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-green {
+  fill: rgb(0, 176, 0) !important;
+  margin-bottom: -1px;
+}
+
+.icon-pink {
+  fill: rgb(219, 26, 84) !important;
+  margin-bottom: -1px;
+}
+
+.input-icon-green {
+  fill: rgb(0, 176, 0) !important;
+  margin-bottom: -7px;
+}
+
+.input-icon-pink {
+  fill: rgb(219, 26, 84) !important;
+  margin-bottom: -7px;
+}
+
+.input-icon-grey {
+  fill: rgb(214 214 214) !important;
+  margin-bottom: -7px;
+}
+
+.add-sch {
+  text-decoration: underline;
+  color: #39aebc;
+}
+
+.dot_div {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.segment-div .segment .segment-dropdown {
+ 
+}
+
+.fade{
+  overflow: hidden !important; 
+}
+.modal-content{
+  overflow-x: scroll !important;
+}
+.modal-content{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+.button-13{
+  border: none;
+
+  background: #f2fbf9;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+.navbar-toggler{
+  display: none;
 }
